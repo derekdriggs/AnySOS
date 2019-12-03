@@ -1,0 +1,2 @@
+%% Setup Paths
+addpath(genpath('.'))
