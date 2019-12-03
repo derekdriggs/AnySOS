@@ -29,7 +29,7 @@ where the cone `K` can be any Cartesian product of the following:
 + positive orthant `{x | x >= 0}`
 + positive semidefinite cone `{ X | min(eig(X)) >= 0, X = X^T }`
 
-The columns of `A` must correspond to variables in the above cones in the given order (i.e. the first columns of `A` correspond to the free variables, then the non-negative variables, and finally the semidefinite variables.) For semidefinite variables, AnySOS uses the convention that the matrix variables `X` are vectorized by scaling the off-diagonal entries by `sqrt(2)` and stacking the lower-triangle using column-major indexing. The function `my_svec(X)` performs this operation, and `my_smat(x)` is its inverse.
+The columns of `A` must correspond to variables in the above cones in the given order (i.e. the first columns of `A` correspond to the free variables, then the non-negative variables, and finally the semidefinite variables.) For semidefinite variables, AnySOS uses the convention that the matrix variables `X` are vectorized by scaling the off-diagonal entries by `sqrt(2)` and stacking the lower triangle using column-major indexing. The function `my_svec(X)` performs this operation, and `my_smat(x)` is its inverse.
 
 ## Examples
 To run the example scripts, you will need to have the spotless toolbox and MOSEK installed and added to your path. This version contains two examples: minimizing a quartic over the sphere and computing a set over which a network of Duffing oscillators is stable. The first problem solves
