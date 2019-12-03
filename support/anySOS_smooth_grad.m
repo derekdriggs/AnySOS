@@ -1,5 +1,3 @@
-% TODO: Keep U in blocks
-
 function [lambda,df] = anySOS_smooth_grad(x,e,mu,K,varargin)
 % Computes subgradient of the map
 %

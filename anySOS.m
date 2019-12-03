@@ -1,4 +1,3 @@
-
 function [sol,errHist] = anySOS(A,b,c,K,e,varargin)
 % Solves the problem
 %
