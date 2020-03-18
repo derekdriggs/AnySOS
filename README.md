@@ -1,11 +1,11 @@
 # AnySOS
-This is a MATLAB implementation of the code from the paper "AnySOS: An anytime algorithm for semidefinite programming" by Driggs and Fawzi (CDC, 2019). AnySOS is suited for solving large-scale semidefinite programs where suboptimal solutions are acceptable, but feasibility in the solution is required. Example problems of this type include sum-of-squares problems arising in control applications.
+This is a MATLAB implementation of the code from the paper "AnySOS: An anytime algorithm for SOS programming" by Driggs and Fawzi (CDC, 2019). AnySOS is suited for solving large-scale semidefinite programs where suboptimal solutions are acceptable, but feasibility in the solution is required. Example problems of this type include sum-of-squares problems arising in control applications.
 
 If you wish to cite AnySOS please use the following:
 ```
 @inproceedings{anysos2019,
     author       = {D. Driggs and H. Fawzi},
-    title        = {{AnySOS}: {A}n anytime algorithm for semidefinite programming},
+    title        = {{AnySOS}: {A}n anytime algorithm for {SOS} programming},
     journal      = {Conference on Decision and Control},
     month        = {December},
     year         = {2019}
